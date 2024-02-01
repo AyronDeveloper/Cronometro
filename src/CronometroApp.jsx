@@ -46,6 +46,7 @@ const CronometroApp = () => {
     clearInterval(intervalo)
     setEstado(0)
     setTiempo({h:0, m:0, s:0, ms:0})
+    setTiempoAlmacenado([])
   }
 
   const guardarTiempo=()=>{
